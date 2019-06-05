@@ -1,0 +1,49 @@
+[java, Main, -d, 20, -alpha, 0.5, -alpha_w, 0.001, -alpha_v, 0.001, -beta_u, 0.001, -beta_v, 0.001, -gamma, 0.01, -setsizeA, 3, -fnTrainData, ./ML100K/u1.base.OCCF, -fnTestData, ./ML100K/u1.test.OCCF, -n, 943, -m, 1682, -num_iterations, 100, -topK, 5]
+d: 20
+alpha: 0.5
+alpha_w: 0.001
+alpha_v: 0.001
+beta_u: 0.001
+beta_v: 0.001
+gamma: 0.01
+fnTrainData: ./ML100K/u1.base.OCCF
+fnTestData: ./ML100K/u1.test.OCCF
+n: 943
+m: 1682
+setsizeA: 3
+num_iterations: 100
+topK: 5
+fnInputModel: 
+fnOutputModel: 
+fnInputCandidateList: 
+fnOutputCandidateList: 
+flagInputModel: false
+flagOutputModel: false
+Number of users in the training Data: 942
+Number of users in the test Data: 456
+Number of warm-start users in the test Data: 456
+Prec@1:0.46710527
+Prec@2:0.43201753
+Prec@3:0.40716356
+Prec@4:0.39418858
+Prec@5:0.3828943
+Rec@1:0.038168605
+Rec@2:0.06169412
+Rec@3:0.08208622
+Rec@4:0.103654295
+Rec@5:0.12285682
+F1@1:0.06342126
+F1@2:0.09443827
+F1@3:0.11707683
+F1@4:0.13708632
+F1@5:0.1539631
+NDCG@1:0.46710527
+NDCG@2:0.44080588
+NDCG@3:0.4233409
+NDCG@4:0.41525197
+NDCG@5:0.4087123
+1-call@1:0.46710527
+1-call@2:0.63596493
+1-call@3:0.73245615
+1-call@4:0.7719298
+1-call@5:0.80921054
